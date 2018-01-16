@@ -1,0 +1,39 @@
+{
+  "name": "Sketch Wire",
+  "description": "Render layers as wireframes",
+  "author": "pravdomil.com",
+  "homepage": "https://github.com/pravdomil/Sketch-Wire",
+  "identifier": "com.pravdomil.SketchWire",
+  "version": "0.0.1",
+  "compatibleVersion": 40,
+  "bundleVersion": 1,
+  "commands": [
+    {
+      "script": "script.js",
+      "handlers": {
+        "actions": {
+          "startup": "onStart"
+        }
+      }
+    },
+    {
+      "name": "Toggle Sketch Wire",
+      "script": "script.js",
+      "identifier": "toggleSketchWire",
+      "handler": "toggleSketchWire"
+    },
+    {
+      "name": "Donate",
+      "script": "script.js",
+      "identifier": "donateSketchWire",
+      "handler": "donateSketchWire"
+    }
+  ],
+  "menu": {
+    "items": [
+      "toggleSketchWire",
+      "-",
+      "donateSketchWire"
+    ]
+  }
+}
