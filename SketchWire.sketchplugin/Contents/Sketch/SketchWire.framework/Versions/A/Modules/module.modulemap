@@ -1,0 +1,6 @@
+framework module SketchWire {
+  umbrella header "SketchWire.h"
+
+  export *
+  module * { export * }
+}
