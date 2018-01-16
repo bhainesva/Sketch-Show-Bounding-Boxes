@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		DA2BA254200CE414003DA137 /* PublicHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = DA2BA252200CE414003DA137 /* PublicHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA2BA25C200CE4BE003DA137 /* SketchWire.h in Headers */ = {isa = PBXBuildFile; fileRef = DA2BA25A200CE4BE003DA137 /* SketchWire.h */; };
+		DA2BA25D200CE4BE003DA137 /* SketchWire.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2BA25B200CE4BE003DA137 /* SketchWire.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DA2BA24F200CE414003DA137 /* SketchWire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SketchWire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA2BA252200CE414003DA137 /* PublicHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PublicHeader.h; sourceTree = "<group>"; };
 		DA2BA253200CE414003DA137 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA2BA25A200CE4BE003DA137 /* SketchWire.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SketchWire.h; sourceTree = "<group>"; };
+		DA2BA25B200CE4BE003DA137 /* SketchWire.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SketchWire.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +52,8 @@
 			children = (
 				DA2BA252200CE414003DA137 /* PublicHeader.h */,
 				DA2BA253200CE414003DA137 /* Info.plist */,
+				DA2BA25A200CE4BE003DA137 /* SketchWire.h */,
+				DA2BA25B200CE4BE003DA137 /* SketchWire.m */,
 			);
 			path = SketchWire;
 			sourceTree = "<group>";
@@ -60,6 +66,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA2BA254200CE414003DA137 /* PublicHeader.h in Headers */,
+				DA2BA25C200CE4BE003DA137 /* SketchWire.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA2BA25D200CE4BE003DA137 /* SketchWire.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
