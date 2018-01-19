@@ -69,6 +69,8 @@
     
     // stroke width
     CGFloat strokeWidth = 0.5;
+    CGFloat color[4] = {68/255, 192/255, 255/255, 1};
+    CGContextSetStrokeColor(c, color);
     CGContextSetLineWidth(c, strokeWidth);
     
     // rect
