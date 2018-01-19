@@ -36,7 +36,7 @@ static bool active = false;
     return true;
 }
 
-+ (bool)swizzle:(NSString*)className from:(SEL)from to:(SEL)to
++ (bool)replaceRenderer:(NSString*)className
 {
     Class class = NSClassFromString(className);
     if (!class) {
