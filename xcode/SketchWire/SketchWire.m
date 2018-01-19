@@ -21,13 +21,13 @@
 + (bool)toggle
 {
     SEL renderLayerUncached = @selector(renderLayerUncached:ignoreDrawingArea:context:);
-    if(![self swizzle:@"MSTextRendererCG" from:renderLayerUncached to:@selector(textRenderer:ignoreDrawingArea:context:)]) {
+    if(![self replaceRenderer:@"MSTextRendererCG"]) {
         return false;
     }
-    if(![self swizzle:@"MSShapeRendererCG" from:renderLayerUncached to:@selector(shapeRenderer:ignoreDrawingArea:context:)]) {
+    if(![self replaceRenderer:@"MSShapeRendererCG"]) {
         return false;
     }
-    if(![self swizzle:@"MSBitmapRendererCG" from:renderLayerUncached to:@selector(bitmapRenderer:ignoreDrawingArea:context:)]) {
+    if(![self replaceRenderer:@"MSBitmapRendererCG"]) {
         return false;
     }
     
