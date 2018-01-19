@@ -101,20 +101,5 @@ static bool active = false;
     CGContextAddLines(c, points2, sizeof(points2)/ sizeof(points2[0]));
     CGContextStrokePath(c);
 }
-
-- (void)textRenderer:(MSImmutableLayer*)layer ignoreDrawingArea:(BOOL)ignoreDrawingArea context:(MSRenderingContext*)context
-{
-    [SketchWire renderPlaceholder:layer ignoreDrawingArea:ignoreDrawingArea context:context];
-}
-
-- (void)shapeRenderer:(MSImmutableLayer*)layer ignoreDrawingArea:(BOOL)ignoreDrawingArea context:(MSRenderingContext*)context
-{
-    [SketchWire renderPlaceholder:layer ignoreDrawingArea:ignoreDrawingArea context:context];
-}
-
-- (void)bitmapRenderer:(MSImmutableLayer*)layer ignoreDrawingArea:(BOOL)ignoreDrawingArea context:(MSRenderingContext*)context
-{
-    [SketchWire renderPlaceholder:layer ignoreDrawingArea:ignoreDrawingArea context:context];
-}
 @end
 
