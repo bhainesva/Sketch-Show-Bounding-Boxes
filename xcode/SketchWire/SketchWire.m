@@ -13,6 +13,7 @@
 #pragma GCC diagnostic ignored "-Wincomplete-implementation"
 
 static bool active = false;
+static bool activeCross = false;
 
 @implementation SketchWire
 + (bool)install
@@ -85,6 +86,8 @@ static bool active = false;
     struct CGRect rect = NSInsetRect(layer.rect, strokeWidth / 2, strokeWidth / 2);
     CGContextStrokeRect(c, rect);
     
+    // optional cross
+    if (activeCross) {
     // line from left top 2 right bottom
     const CGPoint points1[] = {
         CGPointMake(rect.origin.x                  , rect.origin.y),
@@ -100,6 +103,7 @@ static bool active = false;
     };
     CGContextAddLines(c, points2, sizeof(points2)/ sizeof(points2[0]));
     CGContextStrokePath(c);
+    }
 }
 @end
 
