@@ -31,14 +31,6 @@
         return false;
     }
     
-    SEL shouldDrawBackground = @selector(shouldDrawBackgroundInContext:isDrawingAsSymbolInstance:);
-    if(![self swizzle:@"MSImmutableArtboardGroup" from:shouldDrawBackground to:@selector(shouldDrawArtboardGroupBackground:isDrawingAsSymbolInstance:)]) {
-        return false;
-    }
-    if(![self swizzle:@"MSImmutableSymbolMaster" from:shouldDrawBackground to:@selector(shouldDrawSymbolMasterBackground:isDrawingAsSymbolInstance:)]) {
-        return false;
-    }
-    
     return true;
 }
 
@@ -92,16 +84,6 @@
     };
     CGContextAddLines(c, points2, sizeof(points2)/ sizeof(points2[0]));
     CGContextStrokePath(c);
-}
-
-- (bool)shouldDrawArtboardGroupBackground:(id)arg1 isDrawingAsSymbolInstance:(BOOL)arg2
-{
-    return false;
-}
-
-- (bool)shouldDrawSymbolMasterBackground:(id)arg1 isDrawingAsSymbolInstance:(BOOL)arg2
-{
-    return false;
 }
 
 - (void)textRenderer:(MSImmutableLayer*)layer ignoreDrawingArea:(BOOL)ignoreDrawingArea context:(MSRenderingContext*)context
