@@ -43,17 +43,31 @@ static bool active = false;
         return false;
     }
     
+    SEL from = @selector(renderLayerUncached:ignoreDrawingArea:context:);
     Method original = class_getInstanceMethod(class, from);
     if (!original) {
         return false;
     }
     
-    Method swizzled = class_getInstanceMethod([self class], to);
-    if (!swizzled) {
+    __block IMP originalImp = NULL;
+    IMP replacement = imp_implementationWithBlock(^void (id _self, id layer, BOOL ignoreDrawingArea, id context) {
+        // original render
+        if(originalImp) {
+            ((void(*)(id, SEL, id, BOOL, id))originalImp)(_self, _cmd, layer, ignoreDrawingArea, context);
+        }
+        
+        // render placeholder
+        if (active) {
+            [SketchWire renderPlaceholder:layer ignoreDrawingArea:ignoreDrawingArea context:context];
+        }
+    });
+    
+    originalImp = class_replaceMethod(class, from, replacement, method_getTypeEncoding(original));
+    
+    if(!originalImp) {
         return false;
     }
     
-    method_exchangeImplementations(original, swizzled);
     return true;
 }
 
