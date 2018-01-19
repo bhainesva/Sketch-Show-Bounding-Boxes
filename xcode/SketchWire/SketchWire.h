@@ -11,10 +11,6 @@
 @interface SketchWire : NSObject
 // MSLayerRenderer
 - (void)renderLayerUncached:(id)arg1 ignoreDrawingArea:(BOOL)arg2 context:(id)arg3;
-
-// MSImmutableArtboardGroup
-// MSImmutableSymbolMaster
-- (BOOL)shouldDrawBackgroundInContext:(id)arg1 isDrawingAsSymbolInstance:(BOOL)arg2;
 @end
 
 @interface MSImmutableLayer
