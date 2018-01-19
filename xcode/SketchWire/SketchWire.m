@@ -88,21 +88,21 @@ static bool activeCross = false;
     
     // optional cross
     if (activeCross) {
-    // line from left top 2 right bottom
-    const CGPoint points1[] = {
-        CGPointMake(rect.origin.x                  , rect.origin.y),
-        CGPointMake(rect.origin.x + rect.size.width, rect.origin.y + rect.size.height),
-    };
-    CGContextAddLines(c, points1, sizeof(points1)/ sizeof(points1[0]));
-    CGContextStrokePath(c);
-    
-    // line from right top 2 bottom left
-    const CGPoint points2[] = {
-        CGPointMake(rect.origin.x + rect.size.width, rect.origin.y),
-        CGPointMake(rect.origin.x                  , rect.origin.y + rect.size.height),
-    };
-    CGContextAddLines(c, points2, sizeof(points2)/ sizeof(points2[0]));
-    CGContextStrokePath(c);
+        // line from left top 2 right bottom
+        const CGPoint points1[] = {
+            CGPointMake(rect.origin.x                  , rect.origin.y),
+            CGPointMake(rect.origin.x + rect.size.width, rect.origin.y + rect.size.height),
+        };
+        CGContextAddLines(c, points1, sizeof(points1)/ sizeof(points1[0]));
+        CGContextStrokePath(c);
+        
+        // line from right top 2 bottom left
+        const CGPoint points2[] = {
+            CGPointMake(rect.origin.x + rect.size.width, rect.origin.y),
+            CGPointMake(rect.origin.x                  , rect.origin.y + rect.size.height),
+        };
+        CGContextAddLines(c, points2, sizeof(points2)/ sizeof(points2[0]));
+        CGContextStrokePath(c);
     }
 }
 @end
