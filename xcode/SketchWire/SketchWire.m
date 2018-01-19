@@ -17,11 +17,6 @@ static bool active = false;
 @implementation SketchWire
 + (bool)install
 {
-    return true;
-}
-
-+ (bool)toggle
-{
     SEL renderLayerUncached = @selector(renderLayerUncached:ignoreDrawingArea:context:);
     if(![self replaceRenderer:@"MSTextRendererCG"]) {
         return false;
@@ -33,6 +28,12 @@ static bool active = false;
         return false;
     }
     
+    return true;
+}
+
++ (bool)toggle
+{
+    active = !active;
     return true;
 }
 
