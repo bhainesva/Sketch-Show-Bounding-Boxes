@@ -8,7 +8,7 @@ Sketch plugin that shows bounding boxes of all layers.
 
 **2. Use** as long as you want.
 
-**3. Donate** [buy a beer](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BCL2X3AFQBAP2&item_name=Sketch%20Wire%20Beer).
+**3. Donate** [buy a beer](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BCL2X3AFQBAP2&item_name=Sketch%20Show%20Bounding%20Boxes).
 
 ----
 
