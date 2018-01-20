@@ -1,6 +1,6 @@
 # Show Bounding Boxes
 
-Sketch plugin that renders layers as wireframes.
+Sketch plugin that shows bounding boxes of all layers.
 
 ![preview](gif.gif)
 
