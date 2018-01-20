@@ -37,6 +37,12 @@ static bool crossActive = false;
     return true;
 }
 
++ (bool)toggleCross
+{
+    crossActive = !crossActive;
+    return true;
+}
+
 + (bool)replaceRenderer:(NSString*)className
 {
     Class class = NSClassFromString(className);
