@@ -33,6 +33,25 @@ bool crossActive = false;
     return true;
 }
 
++(void)syncDefaultsFirstTime: (bool)firstTime
+{
+    NSUserDefaults* defaults = [NSUserDefaults standardUserDefaults];
+    NSString* activeKey = @"SketchWire.active";
+    NSString* crossActiveKey = @"SketchWire.crossActive";
+    
+    if (firstTime) {
+        NSDictionary *dist = @{ activeKey: @true, crossActiveKey: @false };
+        [defaults registerDefaults:dist];
+        
+        active = [defaults boolForKey:activeKey];
+        crossActive = [defaults boolForKey:crossActiveKey];
+    }
+    else {
+        [defaults setBool:active forKey:activeKey];
+        [defaults setBool:crossActive forKey:crossActiveKey];
+    }
+}
+
 + (void)toggle
 {
     active = !active;
