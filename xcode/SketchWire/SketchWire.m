@@ -28,7 +28,7 @@ bool crossActive = false;
         return false;
     }
     
-    [SketchWire getDefaults];
+    [SketchWire syncDefaults];
     
     return true;
 }
@@ -36,13 +36,13 @@ bool crossActive = false;
 + (void)toggle
 {
     active = !active;
-    [SketchWire setDefaults];
+    [SketchWire syncDefaults];
 }
 
 + (void)toggleCross
 {
     crossActive = !crossActive;
-    [SketchWire setDefaults];
+    [SketchWire syncDefaults];
 }
 
 + (bool)replaceRenderer:(NSString*)className
