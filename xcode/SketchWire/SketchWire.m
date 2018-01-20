@@ -91,9 +91,8 @@ bool crossActive = false;
     CGContextSetStrokeColor(c, CGColorGetComponents([NSColorFromRGB(0x44C0FF) CGColor]));
     CGContextSetLineWidth(c, strokeWidth);
     
-    // rect
+    // bounding box
     struct CGRect rect = NSInsetRect(layer.rect, strokeWidth / 2, strokeWidth / 2);
-    CGContextStrokeRect(c, rect);
     
     // optional cross
     if (crossActive) {
@@ -113,6 +112,10 @@ bool crossActive = false;
         CGContextAddLines(c, points2, sizeof(points2)/ sizeof(points2[0]));
         CGContextStrokePath(c);
     }
+    
+    // rect
+    CGContextStrokeRect(c, rect);
+    
 }
 @end
 
