@@ -1,9 +1,9 @@
 {
-  "name": "Sketch Wire",
-  "description": "Sketch plugin that renders layers as wireframes",
+  "name": "Show Bounding Boxes ",
+  "description": "Sketch plugin that shows bounding boxes of all layers",
   "author": "pravdomil.com",
-  "homepage": "https://github.com/pravdomil/Sketch-Wire",
-  "identifier": "com.pravdomil.SketchWire",
+  "homepage": "https://github.com/pravdomil/Sketch-Show-Bounding-Boxes",
+  "identifier": "com.pravdomil.showBoundingBoxes",
   "version": "0.0.1",
   "compatibleVersion": 40,
   "bundleVersion": 1,
