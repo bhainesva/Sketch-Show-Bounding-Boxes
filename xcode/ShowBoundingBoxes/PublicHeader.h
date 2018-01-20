@@ -1,11 +1,3 @@
-//
-//  SketchWire.h
-//  SketchWire
-//
-//  Created by Pravdomil Toman on 15/01/2018.
-//  Copyright © 2018 Pravdomil Toman. All rights reserved.
-//
-
 #import <Cocoa/Cocoa.h>
 
 //! Project version number for SketchWire.
