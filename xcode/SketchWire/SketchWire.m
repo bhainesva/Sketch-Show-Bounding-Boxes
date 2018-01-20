@@ -13,7 +13,7 @@
 #pragma GCC diagnostic ignored "-Wincomplete-implementation"
 
 static bool active = false;
-static bool activeCross = false;
+static bool crossActive = false;
 
 @implementation SketchWire
 + (bool)install
@@ -88,7 +88,7 @@ static bool activeCross = false;
     CGContextStrokeRect(c, rect);
     
     // optional cross
-    if (activeCross) {
+    if (crossActive) {
         // line from left top 2 right bottom
         const CGPoint points1[] = {
             CGPointMake(rect.origin.x                  , rect.origin.y),
