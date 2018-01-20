@@ -4,7 +4,7 @@ Sketch plugin that shows bounding boxes of all layers.
 
 ![preview](gif.gif)
 
-**1. Install** via [Sketch Runner](http://sketchrunner.com) or [Sketchpacks](https://sketchpacks.com/pravdomil/Sketch-Wire).
+**1. Install** via [Sketch Runner](http://sketchrunner.com) or [Sketchpacks](https://sketchpacks.com/pravdomil/Sketch-Show-Bounding-Boxes).
 
 **2. Use** as long as you want.
 
