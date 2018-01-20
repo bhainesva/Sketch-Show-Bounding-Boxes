@@ -1,4 +1,4 @@
-const name = "SketchWire";
+const name = "Show Bounding Boxes";
 
 function onStart(context) {
   const scriptPath = context.scriptPath;
@@ -24,17 +24,17 @@ function onStart(context) {
   log(name + " OK");
 }
 
-function toggleSketchWire(context) {
+function showBoundingBoxes(context) {
   const frameworkClass = NSClassFromString(name);
   [frameworkClass toggle];
 }
 
-function toggleCrossSketchWire(context) {
+function showBoundingBoxesCrossMarks(context) {
   const frameworkClass = NSClassFromString(name);
   [frameworkClass toggleCross];
 }
 
-function donateSketchWire(context) {
-    const url = "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BCL2X3AFQBAP2&item_name=Sketch%20Wire%20Beer";
+function donateShowBoundingBoxes(context) {
+    const url = "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BCL2X3AFQBAP2&item_name=Sketch%20Show%20Bounding%20Boxes";
     NSWorkspace.sharedWorkspace().openURL(NSURL.URLWithString(url));
 }
