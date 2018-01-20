@@ -23,10 +23,10 @@
       "handler": "showBoundingBoxes"
     },
     {
-      "name": "Show Bounding Boxes with Cross Marks",
+      "name": "Toggle Cross Marks",
       "script": "script.js",
-      "identifier": "showBoundingBoxesCrossMarks",
-      "handler": "showBoundingBoxesCrossMarks"
+      "identifier": "toggleBoundingBoxesCrossMarks",
+      "handler": "toggleBoundingBoxesCrossMarks"
     },
     {
       "name": "Buy a Beer",
@@ -38,7 +38,7 @@
   "menu": {
     "items": [
       "showBoundingBoxes",
-      "showBoundingBoxesCrossMarks",
+      "toggleBoundingBoxesCrossMarks",
       "-",
       "donateShowBoundingBoxes"
     ]

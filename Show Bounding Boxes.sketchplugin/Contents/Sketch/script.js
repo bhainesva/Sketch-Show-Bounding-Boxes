@@ -29,7 +29,7 @@ function showBoundingBoxes(context) {
   [frameworkClass toggle];
 }
 
-function showBoundingBoxesCrossMarks(context) {
+function toggleBoundingBoxesCrossMarks(context) {
   const frameworkClass = NSClassFromString(name);
   [frameworkClass toggleCross];
 }
