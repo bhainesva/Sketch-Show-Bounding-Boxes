@@ -34,11 +34,13 @@ static bool crossActive = false;
 + (void)toggle
 {
     active = !active;
+    [SketchWire setDefaults];
 }
 
 + (void)toggleCross
 {
     crossActive = !crossActive;
+    [SketchWire setDefaults];
 }
 
 + (bool)replaceRenderer:(NSString*)className
