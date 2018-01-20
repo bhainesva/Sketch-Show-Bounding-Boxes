@@ -7,7 +7,7 @@
 bool active = false;
 bool crossActive = false;
 
-@implementation SketchWire
+@implementation ShowBoundingBoxes
 + (bool)install
 {
     if(![self replaceRenderer:@"MSTextRendererCG"]) {
@@ -20,7 +20,7 @@ bool crossActive = false;
         return false;
     }
     
-    [SketchWire syncDefaultsFirstTime: true];
+    [ShowBoundingBoxes syncDefaultsFirstTime: true];
     
     return true;
 }
@@ -28,8 +28,8 @@ bool crossActive = false;
 +(void)syncDefaultsFirstTime: (bool)firstTime
 {
     NSUserDefaults* defaults = [NSUserDefaults standardUserDefaults];
-    NSString* activeKey = @"SketchWire.active";
-    NSString* crossActiveKey = @"SketchWire.crossActive";
+    NSString* activeKey = @"ShowBoundingBoxes.active";
+    NSString* crossActiveKey = @"ShowBoundingBoxes.crossActive";
     
     if (firstTime) {
         NSDictionary *dist = @{ activeKey: @true, crossActiveKey: @false };
@@ -47,14 +47,14 @@ bool crossActive = false;
 + (void)toggle
 {
     active = !active;
-    [SketchWire syncDefaultsFirstTime: false];
+    [ShowBoundingBoxes syncDefaultsFirstTime: false];
 }
 
 + (void)toggleCross
 {
     crossActive = !crossActive;
     active = true;
-    [SketchWire syncDefaultsFirstTime: false];
+    [ShowBoundingBoxes syncDefaultsFirstTime: false];
 }
 
 + (bool)replaceRenderer:(NSString*)className
@@ -79,7 +79,7 @@ bool crossActive = false;
         
         // render placeholder
         if (active) {
-            [SketchWire renderPlaceholder:layer ignoreDrawingArea:ignoreDrawingArea context:context];
+            [ShowBoundingBoxes renderPlaceholder:layer ignoreDrawingArea:ignoreDrawingArea context:context];
         }
     });
     

@@ -1,6 +1,6 @@
 #import <Foundation/Foundation.h>
 
-@interface SketchWire : NSObject
+@interface ShowBoundingBoxes : NSObject
 // MSLayerRenderer
 - (void)renderLayerUncached:(id)arg1 ignoreDrawingArea:(BOOL)arg2 context:(id)arg3;
 @end
