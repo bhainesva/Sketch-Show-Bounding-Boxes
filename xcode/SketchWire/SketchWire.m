@@ -31,16 +31,14 @@ static bool crossActive = false;
     return true;
 }
 
-+ (bool)toggle
++ (void)toggle
 {
     active = !active;
-    return true;
 }
 
-+ (bool)toggleCross
++ (void)toggleCross
 {
     crossActive = !crossActive;
-    return true;
 }
 
 + (bool)replaceRenderer:(NSString*)className
