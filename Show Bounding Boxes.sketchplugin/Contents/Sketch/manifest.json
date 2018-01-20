@@ -17,30 +17,30 @@
       }
     },
     {
-      "name": "Toggle Sketch Wire",
+      "name": "Show Bounding Boxes",
       "script": "script.js",
-      "identifier": "toggleSketchWire",
-      "handler": "toggleSketchWire"
+      "identifier": "showBoundingBoxes",
+      "handler": "showBoundingBoxes"
     },
     {
-      "name": "Toggle Sketch Wire Cross",
+      "name": "Show Bounding Boxes with Cross Marks",
       "script": "script.js",
-      "identifier": "toggleCrossSketchWire",
-      "handler": "toggleCrossSketchWire"
+      "identifier": "showBoundingBoxesCrossMarks",
+      "handler": "showBoundingBoxesCrossMarks"
     },
     {
-      "name": "Donate",
+      "name": "Buy a Beer",
       "script": "script.js",
-      "identifier": "donateSketchWire",
-      "handler": "donateSketchWire"
+      "identifier": "donateShowBoundingBoxes",
+      "handler": "donateShowBoundingBoxes"
     }
   ],
   "menu": {
     "items": [
-      "toggleSketchWire",
-      "toggleCrossSketchWire",
+      "showBoundingBoxes",
+      "showBoundingBoxesCrossMarks",
       "-",
-      "donateSketchWire"
+      "donateShowBoundingBoxes"
     ]
   }
 }
