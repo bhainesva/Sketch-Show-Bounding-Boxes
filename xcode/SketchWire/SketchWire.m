@@ -28,6 +28,8 @@ static bool crossActive = false;
         return false;
     }
     
+    [SketchWire getDefaults];
+    
     return true;
 }
 
