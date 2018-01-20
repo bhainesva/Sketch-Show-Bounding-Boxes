@@ -94,8 +94,8 @@ bool crossActive = false;
     // bounding box
     struct CGRect rect = NSInsetRect(layer.rect, strokeWidth / 2, strokeWidth / 2);
     
-    // optional cross
-    if (crossActive) {
+    // cross
+    if(crossActive && [layer isKindOfClass:[MSImmutableShapeGroup class]]) {
         // line from left top 2 right bottom
         const CGPoint points1[] = {
             CGPointMake(rect.origin.x                  , rect.origin.y),
