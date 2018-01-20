@@ -21,6 +21,3 @@
 @property(nonatomic) struct CGContext *contextRef;
 @end
 
-@interface MSImmutableShapeGroup : MSImmutableLayer
-
-@end

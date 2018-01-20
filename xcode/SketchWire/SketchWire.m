@@ -113,7 +113,7 @@ bool crossActive = false;
     struct CGRect rect = NSInsetRect(layer.rect, strokeWidth / 2, strokeWidth / 2);
     
     // cross
-    if(crossActive && [layer isKindOfClass:[MSImmutableShapeGroup class]]) {
+    if(crossActive && [layer isKindOfClass:NSClassFromString(@"MSImmutableShapeGroup")]) {
         CGContextSetStrokeColor(c, CGColorGetComponents([NSColorFromRGB(0xD9F2FF) CGColor]));
         
         // line from left top 2 right bottom
