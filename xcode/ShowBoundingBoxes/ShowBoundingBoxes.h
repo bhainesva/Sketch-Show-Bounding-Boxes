@@ -1,6 +1,6 @@
 //
-//  SketchWire.h
-//  SketchWire
+//  ShowBoundingBoxes.h
+//  ShowBoundingBoxes
 //
 //  Created by Pravdomil Toman on 15/01/2018.
 //  Copyright © 2018 Pravdomil Toman. All rights reserved.

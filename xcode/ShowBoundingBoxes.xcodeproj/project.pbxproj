@@ -8,16 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		DAA39B0D2013EE4D00D6F079 /* PublicHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = DAA39B0B2013EE4D00D6F079 /* PublicHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DAA39B192013EE9A00D6F079 /* SketchWire.h in Headers */ = {isa = PBXBuildFile; fileRef = DAA39B172013EE9A00D6F079 /* SketchWire.h */; };
-		DAA39B1A2013EE9A00D6F079 /* SketchWire.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA39B182013EE9A00D6F079 /* SketchWire.m */; };
+		DAA39B192013EE9A00D6F079 /* ShowBoundingBoxes.h in Headers */ = {isa = PBXBuildFile; fileRef = DAA39B172013EE9A00D6F079 /* ShowBoundingBoxes.h */; };
+		DAA39B1A2013EE9A00D6F079 /* ShowBoundingBoxes.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA39B182013EE9A00D6F079 /* ShowBoundingBoxes.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DAA39B082013EE4D00D6F079 /* ShowBoundingBoxes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ShowBoundingBoxes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAA39B0B2013EE4D00D6F079 /* PublicHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PublicHeader.h; sourceTree = "<group>"; };
 		DAA39B0C2013EE4D00D6F079 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DAA39B172013EE9A00D6F079 /* SketchWire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SketchWire.h; sourceTree = "<group>"; };
-		DAA39B182013EE9A00D6F079 /* SketchWire.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SketchWire.m; sourceTree = "<group>"; };
+		DAA39B172013EE9A00D6F079 /* ShowBoundingBoxes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowBoundingBoxes.h; sourceTree = "<group>"; };
+		DAA39B182013EE9A00D6F079 /* ShowBoundingBoxes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowBoundingBoxes.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +51,8 @@
 			isa = PBXGroup;
 			children = (
 				DAA39B0B2013EE4D00D6F079 /* PublicHeader.h */,
-				DAA39B172013EE9A00D6F079 /* SketchWire.h */,
-				DAA39B182013EE9A00D6F079 /* SketchWire.m */,
+				DAA39B172013EE9A00D6F079 /* ShowBoundingBoxes.h */,
+				DAA39B182013EE9A00D6F079 /* ShowBoundingBoxes.m */,
 				DAA39B0C2013EE4D00D6F079 /* Info.plist */,
 			);
 			path = ShowBoundingBoxes;
@@ -66,7 +66,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DAA39B0D2013EE4D00D6F079 /* PublicHeader.h in Headers */,
-				DAA39B192013EE9A00D6F079 /* SketchWire.h in Headers */,
+				DAA39B192013EE9A00D6F079 /* ShowBoundingBoxes.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAA39B1A2013EE9A00D6F079 /* SketchWire.m in Sources */,
+				DAA39B1A2013EE9A00D6F079 /* ShowBoundingBoxes.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

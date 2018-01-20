@@ -1,6 +1,6 @@
 //
-//  SketchWire.m
-//  SketchWire
+//  ShowBoundingBoxes.m
+//  ShowBoundingBoxes
 //
 //  Created by Pravdomil Toman on 15/01/2018.
 //  Copyright © 2018 Pravdomil Toman. All rights reserved.
@@ -8,7 +8,7 @@
 
 #import <Cocoa/Cocoa.h>
 #import <objc/runtime.h>
-#import "SketchWire.h"
+#import "ShowBoundingBoxes.h"
 
 #pragma GCC diagnostic ignored "-Wincomplete-implementation"
 
