@@ -12,4 +12,3 @@
 @interface MSRenderingContext : NSObject
 @property(nonatomic) struct CGContext *contextRef;
 @end
-
