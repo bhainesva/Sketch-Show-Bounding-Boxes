@@ -1,4 +1,4 @@
-const name = "Show Bounding Boxes";
+const name = "ShowBoundingBoxes";
 
 function onStart(context) {
   const scriptPath = context.scriptPath;
