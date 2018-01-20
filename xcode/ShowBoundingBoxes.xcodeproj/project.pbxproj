@@ -7,21 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DA2BA254200CE414003DA137 /* PublicHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = DA2BA252200CE414003DA137 /* PublicHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DA2BA25C200CE4BE003DA137 /* SketchWire.h in Headers */ = {isa = PBXBuildFile; fileRef = DA2BA25A200CE4BE003DA137 /* SketchWire.h */; };
-		DA2BA25D200CE4BE003DA137 /* SketchWire.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2BA25B200CE4BE003DA137 /* SketchWire.m */; };
+		DAA39B0D2013EE4D00D6F079 /* PublicHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = DAA39B0B2013EE4D00D6F079 /* PublicHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DAA39B192013EE9A00D6F079 /* SketchWire.h in Headers */ = {isa = PBXBuildFile; fileRef = DAA39B172013EE9A00D6F079 /* SketchWire.h */; };
+		DAA39B1A2013EE9A00D6F079 /* SketchWire.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA39B182013EE9A00D6F079 /* SketchWire.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DA2BA24F200CE414003DA137 /* SketchWire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SketchWire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA2BA252200CE414003DA137 /* PublicHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PublicHeader.h; sourceTree = "<group>"; };
-		DA2BA253200CE414003DA137 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DA2BA25A200CE4BE003DA137 /* SketchWire.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SketchWire.h; sourceTree = "<group>"; };
-		DA2BA25B200CE4BE003DA137 /* SketchWire.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SketchWire.m; sourceTree = "<group>"; };
+		DAA39B082013EE4D00D6F079 /* ShowBoundingBoxes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ShowBoundingBoxes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAA39B0B2013EE4D00D6F079 /* PublicHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PublicHeader.h; sourceTree = "<group>"; };
+		DAA39B0C2013EE4D00D6F079 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAA39B172013EE9A00D6F079 /* SketchWire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SketchWire.h; sourceTree = "<group>"; };
+		DAA39B182013EE9A00D6F079 /* SketchWire.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SketchWire.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DA2BA24B200CE414003DA137 /* Frameworks */ = {
+		DAA39B042013EE4C00D6F079 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -31,100 +31,100 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DA2BA245200CE414003DA137 = {
+		DAA39AFE2013EE4C00D6F079 = {
 			isa = PBXGroup;
 			children = (
-				DA2BA251200CE414003DA137 /* SketchWire */,
-				DA2BA250200CE414003DA137 /* Products */,
+				DAA39B0A2013EE4D00D6F079 /* ShowBoundingBoxes */,
+				DAA39B092013EE4D00D6F079 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		DA2BA250200CE414003DA137 /* Products */ = {
+		DAA39B092013EE4D00D6F079 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DA2BA24F200CE414003DA137 /* SketchWire.framework */,
+				DAA39B082013EE4D00D6F079 /* ShowBoundingBoxes.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DA2BA251200CE414003DA137 /* SketchWire */ = {
+		DAA39B0A2013EE4D00D6F079 /* ShowBoundingBoxes */ = {
 			isa = PBXGroup;
 			children = (
-				DA2BA252200CE414003DA137 /* PublicHeader.h */,
-				DA2BA253200CE414003DA137 /* Info.plist */,
-				DA2BA25A200CE4BE003DA137 /* SketchWire.h */,
-				DA2BA25B200CE4BE003DA137 /* SketchWire.m */,
+				DAA39B0B2013EE4D00D6F079 /* PublicHeader.h */,
+				DAA39B172013EE9A00D6F079 /* SketchWire.h */,
+				DAA39B182013EE9A00D6F079 /* SketchWire.m */,
+				DAA39B0C2013EE4D00D6F079 /* Info.plist */,
 			);
-			path = SketchWire;
+			path = ShowBoundingBoxes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		DA2BA24C200CE414003DA137 /* Headers */ = {
+		DAA39B052013EE4C00D6F079 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA2BA254200CE414003DA137 /* PublicHeader.h in Headers */,
-				DA2BA25C200CE4BE003DA137 /* SketchWire.h in Headers */,
+				DAA39B0D2013EE4D00D6F079 /* PublicHeader.h in Headers */,
+				DAA39B192013EE9A00D6F079 /* SketchWire.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		DA2BA24E200CE414003DA137 /* SketchWire */ = {
+		DAA39B072013EE4C00D6F079 /* ShowBoundingBoxes */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DA2BA257200CE414003DA137 /* Build configuration list for PBXNativeTarget "SketchWire" */;
+			buildConfigurationList = DAA39B102013EE4D00D6F079 /* Build configuration list for PBXNativeTarget "ShowBoundingBoxes" */;
 			buildPhases = (
-				DA2BA24A200CE414003DA137 /* Sources */,
-				DA2BA24B200CE414003DA137 /* Frameworks */,
-				DA2BA24C200CE414003DA137 /* Headers */,
-				DA2BA24D200CE414003DA137 /* Resources */,
+				DAA39B032013EE4C00D6F079 /* Sources */,
+				DAA39B042013EE4C00D6F079 /* Frameworks */,
+				DAA39B052013EE4C00D6F079 /* Headers */,
+				DAA39B062013EE4C00D6F079 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SketchWire;
-			productName = SketchWire;
-			productReference = DA2BA24F200CE414003DA137 /* SketchWire.framework */;
+			name = ShowBoundingBoxes;
+			productName = ShowBoundingBoxes;
+			productReference = DAA39B082013EE4D00D6F079 /* ShowBoundingBoxes.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		DA2BA246200CE414003DA137 /* Project object */ = {
+		DAA39AFF2013EE4C00D6F079 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Pravdomil Toman";
 				TargetAttributes = {
-					DA2BA24E200CE414003DA137 = {
+					DAA39B072013EE4C00D6F079 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = DA2BA249200CE414003DA137 /* Build configuration list for PBXProject "SketchWire" */;
+			buildConfigurationList = DAA39B022013EE4C00D6F079 /* Build configuration list for PBXProject "ShowBoundingBoxes" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = DA2BA245200CE414003DA137;
-			productRefGroup = DA2BA250200CE414003DA137 /* Products */;
+			mainGroup = DAA39AFE2013EE4C00D6F079;
+			productRefGroup = DAA39B092013EE4D00D6F079 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DA2BA24E200CE414003DA137 /* SketchWire */,
+				DAA39B072013EE4C00D6F079 /* ShowBoundingBoxes */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		DA2BA24D200CE414003DA137 /* Resources */ = {
+		DAA39B062013EE4C00D6F079 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -134,18 +134,18 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		DA2BA24A200CE414003DA137 /* Sources */ = {
+		DAA39B032013EE4C00D6F079 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA2BA25D200CE4BE003DA137 /* SketchWire.m in Sources */,
+				DAA39B1A2013EE9A00D6F079 /* SketchWire.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		DA2BA255200CE414003DA137 /* Debug */ = {
+		DAA39B0E2013EE4D00D6F079 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -203,7 +203,7 @@
 			};
 			name = Debug;
 		};
-		DA2BA256200CE414003DA137 /* Release */ = {
+		DAA39B0F2013EE4D00D6F079 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -254,7 +254,7 @@
 			};
 			name = Release;
 		};
-		DA2BA258200CE414003DA137 /* Debug */ = {
+		DAA39B112013EE4D00D6F079 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
@@ -265,16 +265,16 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = SketchWire/Info.plist;
+				INFOPLIST_FILE = ShowBoundingBoxes/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = pravdomil.SketchWire;
+				PRODUCT_BUNDLE_IDENTIFIER = pravdomil.ShowBoundingBoxes;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
-		DA2BA259200CE414003DA137 /* Release */ = {
+		DAA39B122013EE4D00D6F079 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
@@ -285,10 +285,10 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = SketchWire/Info.plist;
+				INFOPLIST_FILE = ShowBoundingBoxes/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = pravdomil.SketchWire;
+				PRODUCT_BUNDLE_IDENTIFIER = pravdomil.ShowBoundingBoxes;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 			};
@@ -297,25 +297,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DA2BA249200CE414003DA137 /* Build configuration list for PBXProject "SketchWire" */ = {
+		DAA39B022013EE4C00D6F079 /* Build configuration list for PBXProject "ShowBoundingBoxes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DA2BA255200CE414003DA137 /* Debug */,
-				DA2BA256200CE414003DA137 /* Release */,
+				DAA39B0E2013EE4D00D6F079 /* Debug */,
+				DAA39B0F2013EE4D00D6F079 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DA2BA257200CE414003DA137 /* Build configuration list for PBXNativeTarget "SketchWire" */ = {
+		DAA39B102013EE4D00D6F079 /* Build configuration list for PBXNativeTarget "ShowBoundingBoxes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DA2BA258200CE414003DA137 /* Debug */,
-				DA2BA259200CE414003DA137 /* Release */,
+				DAA39B112013EE4D00D6F079 /* Debug */,
+				DAA39B122013EE4D00D6F079 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = DA2BA246200CE414003DA137 /* Project object */;
+	rootObject = DAA39AFF2013EE4C00D6F079 /* Project object */;
 }
