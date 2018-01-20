@@ -12,8 +12,8 @@
 
 #pragma GCC diagnostic ignored "-Wincomplete-implementation"
 
-static bool active = false;
-static bool crossActive = false;
+bool active = false;
+bool crossActive = false;
 
 @implementation SketchWire
 + (bool)install
