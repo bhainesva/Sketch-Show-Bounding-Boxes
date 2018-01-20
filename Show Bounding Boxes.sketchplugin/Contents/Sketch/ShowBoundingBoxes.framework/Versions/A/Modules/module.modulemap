@@ -1,0 +1,6 @@
+framework module ShowBoundingBoxes {
+  umbrella header "ShowBoundingBoxes.h"
+
+  export *
+  module * { export * }
+}

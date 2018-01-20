@@ -7,13 +7,13 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
-	<string>SketchWire</string>
+	<string>ShowBoundingBoxes</string>
 	<key>CFBundleIdentifier</key>
-	<string>pravdomil.SketchWire</string>
+	<string>pravdomil.ShowBoundingBoxes</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>SketchWire</string>
+	<string>ShowBoundingBoxes</string>
 	<key>CFBundlePackageType</key>
 	<string>FMWK</string>
 	<key>CFBundleShortVersionString</key>
