@@ -89,13 +89,14 @@ bool crossActive = false;
     // stroke width
     CGFloat strokeWidth = 0.5;
     CGContextSetLineWidth(c, strokeWidth);
-    CGContextSetStrokeColor(c, CGColorGetComponents([NSColorFromRGB(0xD9F2FF) CGColor]));
     
     // bounding box
     struct CGRect rect = NSInsetRect(layer.rect, strokeWidth / 2, strokeWidth / 2);
     
     // cross
     if(crossActive && [layer isKindOfClass:[MSImmutableShapeGroup class]]) {
+        CGContextSetStrokeColor(c, CGColorGetComponents([NSColorFromRGB(0xD9F2FF) CGColor]));
+        
         // line from left top 2 right bottom
         const CGPoint points1[] = {
             CGPointMake(rect.origin.x                  , rect.origin.y),
