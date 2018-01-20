@@ -1,4 +1,4 @@
-# Sketch Wire
+# Show Bounding Boxes
 
 Sketch plugin that renders layers as wireframes.
 
