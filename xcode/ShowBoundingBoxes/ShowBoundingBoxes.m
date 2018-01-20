@@ -61,6 +61,7 @@ bool crossActive = false;
 + (void)toggleCross
 {
     crossActive = !crossActive;
+    active = true;
     [SketchWire syncDefaultsFirstTime: false];
 }
 
