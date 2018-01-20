@@ -72,14 +72,15 @@ static bool activeCross = false;
     return true;
 }
 
+#define NSColorFromRGB(rgbValue) [NSColor colorWithCalibratedRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+
 + (void)renderPlaceholder:(MSImmutableLayer*)layer ignoreDrawingArea:(BOOL)ignoreDrawingArea context:(MSRenderingContext*)context
 {
     struct CGContext* c = context.contextRef;
     
     // stroke width
     CGFloat strokeWidth = 0.5;
-    CGFloat color[4] = {68/255, 192/255, 255/255, 1};
-    CGContextSetStrokeColor(c, color);
+    CGContextSetStrokeColor(c, CGColorGetComponents([NSColorFromRGB(0x44C0FF) CGColor]));
     CGContextSetLineWidth(c, strokeWidth);
     
     // rect
