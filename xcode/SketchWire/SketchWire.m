@@ -6,9 +6,9 @@
 //  Copyright © 2018 Pravdomil Toman. All rights reserved.
 //
 
-#import "SketchWire.h"
 #import <Cocoa/Cocoa.h>
 #import <objc/runtime.h>
+#import "SketchWire.h"
 
 #pragma GCC diagnostic ignored "-Wincomplete-implementation"
 
