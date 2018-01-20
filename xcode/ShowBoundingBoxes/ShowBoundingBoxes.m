@@ -4,10 +4,11 @@
 
 #pragma GCC diagnostic ignored "-Wincomplete-implementation"
 
+@implementation ShowBoundingBoxes
+
 bool active = false;
 bool crossActive = false;
 
-@implementation ShowBoundingBoxes
 + (bool)install
 {
     if(![self replaceRenderer:@"MSTextRendererCG"]) {
@@ -20,7 +21,7 @@ bool crossActive = false;
         return false;
     }
     
-    [ShowBoundingBoxes syncDefaultsFirstTime: true];
+    [ShowBoundingBoxes syncDefaultsFirstTime:true];
     
     return true;
 }
