@@ -88,8 +88,8 @@ bool crossActive = false;
     
     // stroke width
     CGFloat strokeWidth = 0.5;
-    CGContextSetStrokeColor(c, CGColorGetComponents([NSColorFromRGB(0x44C0FF) CGColor]));
     CGContextSetLineWidth(c, strokeWidth);
+    CGContextSetStrokeColor(c, CGColorGetComponents([NSColorFromRGB(0xD9F2FF) CGColor]));
     
     // bounding box
     struct CGRect rect = NSInsetRect(layer.rect, strokeWidth / 2, strokeWidth / 2);
@@ -114,6 +114,7 @@ bool crossActive = false;
     }
     
     // rect
+    CGContextSetStrokeColor(c, CGColorGetComponents([NSColorFromRGB(0x44C0FF) CGColor]));
     CGContextStrokeRect(c, rect);
     
 }
