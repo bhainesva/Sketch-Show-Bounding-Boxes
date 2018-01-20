@@ -23,6 +23,12 @@
       "handler": "toggleSketchWire"
     },
     {
+      "name": "Toggle Sketch Wire Cross",
+      "script": "script.js",
+      "identifier": "toggleCrossSketchWire",
+      "handler": "toggleCrossSketchWire"
+    },
+    {
       "name": "Donate",
       "script": "script.js",
       "identifier": "donateSketchWire",
@@ -32,6 +38,7 @@
   "menu": {
     "items": [
       "toggleSketchWire",
+      "toggleCrossSketchWire",
       "-",
       "donateSketchWire"
     ]
