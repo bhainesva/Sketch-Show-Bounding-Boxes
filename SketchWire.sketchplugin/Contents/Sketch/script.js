@@ -26,10 +26,7 @@ function onStart(context) {
 
 function toggleSketchWire(context) {
   const frameworkClass = NSClassFromString(name);
-  if (![frameworkClass toggle]) {
-    log(name + " toggle failed");
-    return;
-  }
+  [frameworkClass toggle];
 }
 
 function donateSketchWire(context) {
