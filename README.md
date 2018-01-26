@@ -12,3 +12,5 @@ Sketch plugin that shows bounding boxes of all layers aka Show layer edges / rec
 ----
 
 [More plugins from author](https://pravdomil.com/#sketch).
+
+<img src="ios.gif" align="center"/>
