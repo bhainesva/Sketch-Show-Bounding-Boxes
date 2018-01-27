@@ -6,7 +6,6 @@
   "identifier": "com.pravdomil.showBoundingBoxes",
   "version": "0.0.2",
   "compatibleVersion": 40,
-  "bundleVersion": 1,
   "commands": [
     {
       "script": "script.js",
