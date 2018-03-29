@@ -1,8 +1,10 @@
-<img src="gif.gif" align="right"/>
+<p align="center"><img src="gif.gif"></p>
 
 # Show Bounding Boxes
 
-Sketch plugin that shows bounding boxes of all layers aka Show layer edges/rectangles/frames. [Check more plugins from author](https://pravdomil.com/#sketch).
+Sketch plugin that shows bounding boxes of all layers aka Show layer edges/rectangles/frames.
+
+[Check more plugins from author](https://pravdomil.com/#sketch).
 
 ## Install
 
