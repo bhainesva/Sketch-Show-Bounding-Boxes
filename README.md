@@ -1,4 +1,4 @@
-<center>
+<div align="center">
 
 <img src="gif.gif">
 
@@ -6,7 +6,7 @@ Sketch plugin that shows bounding boxes of all layers aka Show layer edges/recta
 
 [more plugins from author](https://pravdomil.com/#sketch)
 
-</center>
+</div>
 
 ## Install
 
