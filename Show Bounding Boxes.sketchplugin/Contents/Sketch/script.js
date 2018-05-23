@@ -1,37 +1,37 @@
-const name = "ShowBoundingBoxes"
+const frameworkName = "ShowBoundingBoxes"
 
 function onStart(context) {
   const scriptPath = context.scriptPath
   const directory = scriptPath.stringByDeletingLastPathComponent()
   const mocha = Mocha.sharedRuntime()
 
-  const loaded = mocha.loadFrameworkWithName_inDirectory(name, directory)
+  const loaded = mocha.loadFrameworkWithName_inDirectory(frameworkName, directory)
   if (!loaded) {
-    log(name + " loadFrameworkWithName_inDirectory failed")
+    log(frameworkName + " loadFrameworkWithName_inDirectory failed")
     return
   }
 
-  const frameworkClass = NSClassFromString(name)
+  const frameworkClass = NSClassFromString(frameworkName)
   if (!frameworkClass) {
-    log(name + " NSClassFromString failed")
+    log(frameworkName + " NSClassFromString failed")
     return
   }
 
   if (!frameworkClass.install()) {
-    log(name + " install failed")
+    log(frameworkName + " install failed")
     return
   }
 
-  log(name + " OK")
+  log(frameworkName + " OK")
 }
 
 function showBoundingBoxes(context) {
-  const frameworkClass = NSClassFromString(name)
+  const frameworkClass = NSClassFromString(frameworkName)
   frameworkClass.toggle()
 }
 
 function toggleBoundingBoxesCrossMarks(context) {
-  const frameworkClass = NSClassFromString(name)
+  const frameworkClass = NSClassFromString(frameworkName)
   frameworkClass.toggleCross()
 }
 
