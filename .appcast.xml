@@ -2,9 +2,9 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
   <channel>
     <item>
-      <title>Version 0.0.4</title>
-      <description>* fourth release</description>
-      <enclosure url="https://github.com/pravdomil/Sketch-Show-Bounding-Boxes/releases/download/v0.0.4/Show.Bounding.Boxes.sketchplugin.zip" sparkle:version="0.0.4"/>
+      <title>Version 0.0.5</title>
+      <description>- minor changes</description>
+      <enclosure url="https://github.com/pravdomil/Sketch-Show-Bounding-Boxes/releases/download/v0.0.5/Show.Bounding.Boxes.sketchplugin.zip" sparkle:version="0.0.5"/>
     </item>
   </channel>
 </rss>
