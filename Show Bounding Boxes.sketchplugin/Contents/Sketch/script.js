@@ -2,7 +2,7 @@ const name = "ShowBoundingBoxes";
 
 function onStart(context) {
   const scriptPath = context.scriptPath;
-  const directory = [scriptPath stringByDeletingLastPathComponent];
+  const directory = scriptPath.stringByDeletingLastPathComponent();
 
   const loaded = [[Mocha sharedRuntime] loadFrameworkWithName:name inDirectory:directory];
   if (!loaded) {
