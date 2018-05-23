@@ -3,8 +3,9 @@ const name = "ShowBoundingBoxes";
 function onStart(context) {
   const scriptPath = context.scriptPath;
   const directory = scriptPath.stringByDeletingLastPathComponent();
+  const mocha = Mocha.sharedRuntime()
 
-  const loaded = [[Mocha sharedRuntime] loadFrameworkWithName:name inDirectory:directory];
+  const loaded = mocha.loadFrameworkWithName_inDirectory(name, directory)
   if (!loaded) {
     log(name + " loadFrameworkWithName failed");
     return;
