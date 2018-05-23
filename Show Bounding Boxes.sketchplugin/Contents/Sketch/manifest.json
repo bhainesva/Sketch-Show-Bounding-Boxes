@@ -4,7 +4,7 @@
   "author": "pravdomil.com",
   "homepage": "https://github.com/pravdomil/Sketch-Show-Bounding-Boxes#readme",
   "identifier": "com.pravdomil.showBoundingBoxes",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "compatibleVersion": 40,
   "commands": [
     {
