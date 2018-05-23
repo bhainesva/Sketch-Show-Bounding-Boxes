@@ -2,7 +2,7 @@
   "name": "Show Bounding Boxes ",
   "description": "Sketch plugin that shows bounding boxes of all layers",
   "author": "pravdomil.com",
-  "homepage": "https://github.com/pravdomil/Sketch-Show-Bounding-Boxes",
+  "homepage": "https://github.com/pravdomil/Sketch-Show-Bounding-Boxes#readme",
   "identifier": "com.pravdomil.showBoundingBoxes",
   "version": "0.0.2",
   "compatibleVersion": 40,
