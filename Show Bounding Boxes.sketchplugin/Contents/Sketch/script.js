@@ -26,12 +26,12 @@ function onStart(context) {
 
 function showBoundingBoxes(context) {
   const frameworkClass = NSClassFromString(name);
-  [frameworkClass toggle];
+  frameworkClass.toggle();
 }
 
 function toggleBoundingBoxesCrossMarks(context) {
   const frameworkClass = NSClassFromString(name);
-  [frameworkClass toggleCross];
+  frameworkClass.toggleCross();
 }
 
 function donateShowBoundingBoxes(context) {
