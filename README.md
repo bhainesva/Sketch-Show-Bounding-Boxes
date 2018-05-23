@@ -8,7 +8,7 @@ Sketch plugin that shows bounding boxes of all layers aka Show layer edges/recta
 
 ## Install
 
-Via [Sketch Runner](http://sketchrunner.com) or [Sketchpacks](https://sketchpacks.com/pravdomil/Sketch-Show-Bounding-Boxes) or [manual](../../releases).
+Via [Sketch Runner](http://sketchrunner.com) or [Sketchpacks](https://sketchpacks.com/pravdomil/Sketch-Show-Bounding-Boxes) or [manualy](../../releases).
 
 ## Backers
 
