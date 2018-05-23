@@ -14,7 +14,11 @@ Via [Sketch Runner](http://sketchrunner.com) or [Sketchpacks](https://sketchpack
 
 ## Backers
 
-[Interface.Market](https://interface.market). Become a backer by [buying a beer](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BCL2X3AFQBAP2&item_name=Sketch%20Show%20Bounding%20Boxes).
+[Interface.Market](https://interface.market).
+
+## Donate
+
+[Buy a beer](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BCL2X3AFQBAP2&item_name=Sketch%20Show%20Bounding%20Boxes).
 
 ## Demo
 
