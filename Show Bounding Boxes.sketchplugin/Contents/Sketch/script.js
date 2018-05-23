@@ -3,24 +3,24 @@ const name = "ShowBoundingBoxes";
 function onStart(context) {
   const scriptPath = context.scriptPath;
   const directory = [scriptPath stringByDeletingLastPathComponent];
-  
+
   const loaded = [[Mocha sharedRuntime] loadFrameworkWithName:name inDirectory:directory];
   if (!loaded) {
     log(name + " loadFrameworkWithName failed");
     return;
   }
-  
+
   const frameworkClass = NSClassFromString(name);
   if (!frameworkClass) {
     log(name + " NSClassFromString failed");
     return;
   }
-  
+
   if (![frameworkClass install]) {
     log(name + " install failed");
     return;
   }
-  
+
   log(name + " OK");
 }
 
