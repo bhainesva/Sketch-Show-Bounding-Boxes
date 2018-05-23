@@ -1,42 +1,42 @@
-const name = "ShowBoundingBoxes";
+const name = "ShowBoundingBoxes"
 
 function onStart(context) {
-  const scriptPath = context.scriptPath;
-  const directory = scriptPath.stringByDeletingLastPathComponent();
-  const mocha = Mocha.sharedRuntime();
+  const scriptPath = context.scriptPath
+  const directory = scriptPath.stringByDeletingLastPathComponent()
+  const mocha = Mocha.sharedRuntime()
 
-  const loaded = mocha.loadFrameworkWithName_inDirectory(name, directory);
+  const loaded = mocha.loadFrameworkWithName_inDirectory(name, directory)
   if (!loaded) {
-    log(name + " loadFrameworkWithName_inDirectory failed");
-    return;
+    log(name + " loadFrameworkWithName_inDirectory failed")
+    return
   }
 
-  const frameworkClass = NSClassFromString(name);
+  const frameworkClass = NSClassFromString(name)
   if (!frameworkClass) {
-    log(name + " NSClassFromString failed");
-    return;
+    log(name + " NSClassFromString failed")
+    return
   }
 
   if (!frameworkClass.install()) {
-    log(name + " install failed");
-    return;
+    log(name + " install failed")
+    return
   }
 
-  log(name + " OK");
+  log(name + " OK")
 }
 
 function showBoundingBoxes(context) {
-  const frameworkClass = NSClassFromString(name);
-  frameworkClass.toggle();
+  const frameworkClass = NSClassFromString(name)
+  frameworkClass.toggle()
 }
 
 function toggleBoundingBoxesCrossMarks(context) {
-  const frameworkClass = NSClassFromString(name);
-  frameworkClass.toggleCross();
+  const frameworkClass = NSClassFromString(name)
+  frameworkClass.toggleCross()
 }
 
 function donateShowBoundingBoxes(context) {
   const url =
-    "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BCL2X3AFQBAP2&item_name=Sketch%20Show%20Bounding%20Boxes%20Beer";
-  NSWorkspace.sharedWorkspace().openURL(NSURL.URLWithString(url));
+    "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BCL2X3AFQBAP2&item_name=Sketch%20Show%20Bounding%20Boxes%20Beer"
+  NSWorkspace.sharedWorkspace().openURL(NSURL.URLWithString(url))
 }
