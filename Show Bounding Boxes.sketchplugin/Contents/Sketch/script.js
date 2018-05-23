@@ -17,7 +17,7 @@ function onStart(context) {
     return;
   }
 
-  if (![frameworkClass install]) {
+  if (!frameworkClass.install()) {
     log(name + " install failed");
     return;
   }
