@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    <item>
+      <title>Version 0.0.3</title>
+      <description>* third release</description>
+      <enclosure url="https://github.com/pravdomil/Sketch-Show-Bounding-Boxes/releases/download/v0.0.3/Show.Bounding.Boxes.sketchplugin.zip" sparkle:version="0.0.3"/>
+    </item>
+  </channel>
+</rss>
