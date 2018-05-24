@@ -1,2 +1,2 @@
-xcode/ShowBoundingBoxes.xcodeproj/xcuserdata
-xcode/ShowBoundingBoxes.xcodeproj/project.xcworkspace/xcuserdata
+**/*.xcodeproj/project.xcworkspace
+**/*.xcodeproj/xcuserdata
