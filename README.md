@@ -1,6 +1,6 @@
 <div align="center">
 
-![logo](res/logo.png)
+![logo](res/logo.gif)
 
 Sketch plugin that shows bounding boxes of all layers aka Show layer edges/rectangles/frames
 
