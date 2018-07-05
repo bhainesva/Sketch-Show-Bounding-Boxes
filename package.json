@@ -1,5 +1,12 @@
 {
+  "name": "show-bounding-boxes",
   "version": "0.0.6",
+  "productName": "Show Bounding Boxes",
+  "description": "Sketch plugin that shows bounding boxes of all layers",
+  "homepage": "https://show-bounding-boxes.pravdomil.com",
+  "keywords": [
+    "sketch"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/pravdomil/Sketch-Show-Bounding-Boxes.git"
