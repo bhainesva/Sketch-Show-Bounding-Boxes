@@ -1,5 +1,5 @@
 {
-  "name": "show-bounding-boxes",
+  "name": "sketch-show-bounding-boxes",
   "version": "0.0.6",
   "productName": "Show Bounding Boxes",
   "description": "Sketch plugin that shows bounding boxes of all layers",
