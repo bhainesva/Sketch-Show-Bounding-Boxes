@@ -11,13 +11,13 @@ bool crossActive = false;
 
 + (bool)install
 {
-    if(![self replaceRenderer:@"MSTextRendererCG"]) {
+    if(![self replaceRenderer:@"MSSwiftTextRendererCG"]) {
         return false;
     }
-    if(![self replaceRenderer:@"MSShapeRendererCG"]) {
+    if(![self replaceRenderer:@"MSSwiftShapeRendererCG"]) {
         return false;
     }
-    if(![self replaceRenderer:@"MSBitmapRendererCG"]) {
+    if(![self replaceRenderer:@"MSSwiftBitmapRendererCG"]) {
         return false;
     }
     
